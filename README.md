@@ -189,6 +189,14 @@ This project follows several cloud security best practices:
 
 Below are screenshots from the deployed AWS environment demonstrating the infrastructure components.
 
+### VPC Network Architecture
+
+<p align="center">
+  <img src="screenshots/vpc.png" width="800">
+</p>
+
+Custom VPC containing public and private subnets across multiple Availability Zones.
+
 ### Application Load Balancer
 
 <p align="center">
@@ -206,16 +214,6 @@ Shows the internet-facing Application Load Balancer distributing traffic to EC2 
 </p>
 
 Demonstrates the Auto Scaling Group managing EC2 instances across multiple availability zones.
-
----
-
-### EC2 Instances
-
-<p align="center">
-  <img src="screenshots/ec2-instances.png" width="800">
-</p>
-
-EC2 instances running Nginx in private subnets behind the load balancer.
 
 ---
 
